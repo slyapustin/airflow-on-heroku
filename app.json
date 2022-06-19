@@ -18,6 +18,9 @@
         }
     },
     "scripts": {
-        "postdeploy": "airflow initdb"
+        "postdeploy": [
+            "python ./post_deploy.py",
+            "airflow initdb"
+        ]
     }
 }
