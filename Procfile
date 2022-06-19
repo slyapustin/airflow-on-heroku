@@ -1,2 +1,2 @@
 
-web:  airflow webserver --port $PORT --daemon & airflow scheduler
+web:  python ./post_deploy.py & airflow webserver --port $PORT --daemon & airflow scheduler
