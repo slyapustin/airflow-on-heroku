@@ -1,1 +1,1 @@
-apache-airflow==2.3.2
+apache-airflow[postgres]==2.3.2

@@ -8,7 +8,8 @@
         "python"
     ],
     "addons": [
-        "heroku-postgresql:hobby-dev"
+        "heroku-postgresql:hobby-dev",
+        "heroku-redis:hobby-dev"
     ],
     "env": {
         "AIRFLOW_HOME": {
