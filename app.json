@@ -1,0 +1,22 @@
+{
+    "name": "Airflow Demo on Heroku",
+    "description": "Airflow Demo on Heroku",
+    "repository": "https://github.com/slyapustin/celery-flower-heroku",
+    "keywords": [
+        "airflow",
+        "heroku",
+        "python"
+    ],
+    "addons": [
+        "heroku-postgresql:hobby-dev"
+    ],
+    "env": {
+        "AIRFLOW_HOME": {
+            "description": "Airflow Home Directory Location",
+            "value": "/app"
+        }
+    },
+    "scripts": {
+        "postdeploy": "airflow initdb"
+    }
+}
