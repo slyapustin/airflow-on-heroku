@@ -133,3 +133,4 @@ dags/files/
 logs/
 
 notes.txt
+*.pid
