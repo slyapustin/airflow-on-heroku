@@ -1,1 +1,1 @@
-apache-airflow==2.2.5  # Can't upgrade to 2.3 till this PR will be merged https://github.com/apache/airflow/pull/24569
+apache-airflow[postgres]==2.2.5  # Can't upgrade to 2.3 till this PR will be merged https://github.com/apache/airflow/pull/24569
