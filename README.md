@@ -1,6 +1,11 @@
 # airflow
 Airflow Demo on Heroku
 
+This create a demo instance of Apache Airflow with basic configuration, including: 
+
+- PostgreSQL DB
+- Redis DB
+- CeleryExecutor 
 
 ## Deploy
 
