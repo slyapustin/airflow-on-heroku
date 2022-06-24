@@ -1,7 +1,7 @@
 {
-    "name": "Airflow Demo on Heroku",
-    "description": "Airflow Demo on Heroku",
-    "repository": "https://github.com/slyapustin/celery-flower-heroku",
+    "name": "Airflow on Heroku",
+    "description": "Airflow on Heroku",
+    "repository": "https://github.com/slyapustin/airflow-on-heroku",
     "keywords": [
         "airflow",
         "heroku",
@@ -15,6 +15,17 @@
         "AIRFLOW_HOME": {
             "description": "Airflow Home Directory Location",
             "value": "/app"
+        }
+
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "hobby"
+        },
+        "worker": {
+            "quantity": 1,
+            "size": "hobby"
         }
     },
     "scripts": {
