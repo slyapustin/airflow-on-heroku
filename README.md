@@ -1,5 +1,6 @@
-# airflow
-Airflow Demo on Heroku
+# Airflow Heroku Deployment
+
+Deploy Airflow Demo on Heroku in one click.
 
 This create a demo instance of Apache Airflow with basic configuration, including: 
 
